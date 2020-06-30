@@ -1,4 +1,19 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+ <ngx-loading [show]="loading" [config]="config"></ngx-loading>
+<div>
+  <button (click)="onChasingDots()">ChasingDots</button>
+</div>
+<div>
+  <button (click)="onCircle()">Circle</button>
+</div>
+<div>
+  <button (click)="onCubeGrid()">CubeGrid</button>
+</div>
+<div>
+  <button (click)="onDoubleBounce()">DoubleBounce</button>
+</div>
+<div>
+  <button (click)="onRectangleBounce()">RectangleBounce</button>
+</div>
+<div>
+  <button (click)="onThreeBounce()">ThreeBounce</button>
+</div>
